@@ -2,6 +2,7 @@
 <html>
     <header>
         <title>CRUD DB</title>
+        <link rel="stylesheet" href="./assets/css/index.css">
     </header>
     <body>
         <div>
@@ -17,7 +18,10 @@
                     </tr>
                     <tr>
                         <td>TTL</td>
-                        <td><input type = "date" placeholder = "Tanggal Lahir" name = "ttl" id = "ttl"></td>
+                        <td>
+                            <input type = "text" placeholder = "Tempat" name = "tmp_lahir" id = "tmp_lahir">
+                            /
+                            <input type = "date" placeholder = "Tanggal Lahir" name = "tgl_lahir" id = "tgl_lahir"></td>
                     </tr>
                     <tr>
                         <td>Pilih Jenis Kelamin</td>
@@ -29,7 +33,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><input type = "submit" placeholder = "Jurusan" name = "jurusan" id = "jurusan"></td>
+                        <td><input type = "submit" placeholder = "Save" name = "Save" id = "Save"></td>
                     </tr>
                 </table>
             </form>
