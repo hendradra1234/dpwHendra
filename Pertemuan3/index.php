@@ -10,7 +10,7 @@
                 <table border = 0>
                     <tr>
                         <td>NIM</td>
-                        <td><input type = "text" placeholder = "NIM" name = "NIM" id = "nim"></td>
+                        <td><input type = "text" placeholder = "NIM" name = "nim" id = "nim"></td>
                     </tr>
                     <tr>
                         <td>Nama Lengkap</td>
